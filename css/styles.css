@@ -190,7 +190,7 @@ img {
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover, .hero-btn:focus{
@@ -597,3 +597,25 @@ img {
     resize: none;
 }
 
+.modal-send-btm {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+cursor: pointer;
+color: #fff;
+display: block;
+border: none;
+margin: 0 auto;
+padding: 16px 32px;
+border-radius: 4px;
+min-width: 169px;
+height: 56px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-send-btm:hover, .modal-send-btm:focus{
+    background-color: #404BBF
+}
