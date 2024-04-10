@@ -190,6 +190,7 @@ img {
     border-radius: 4px;
     min-width: 169px;
     height: 56px;
+    outline: transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -521,10 +522,22 @@ img {
     right: 24px;
     top: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus  {
+    background-color: #404bbf;
 }
 
 .modal-icon-close {
-    fill: #2e2f42
+    fill: #2e2f42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover>.modal-icon-close,
+.modal-close-btn:focus>.modal-icon-close {
+    fill: #fff;
 }
 
 .modal-text {
@@ -612,6 +625,7 @@ padding: 16px 32px;
 border-radius: 4px;
 min-width: 169px;
 height: 56px;
+outline: transparent;
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
